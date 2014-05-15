@@ -1,5 +1,6 @@
-%function plotSin(f1)
-%This function plot a sin wave with frequency f1 on [0,2 pi]range
+%plotSin(f1,f2 = 0)
+%This function plot a sin wave with frequency f1 on [0,2 pi]range, if f2 is
+%supplied, a 3D plot of two sin wave is given,along with a heatmap 
 function plotSin(f1,f2)
  x = linspace(0,2*pi,f1*16+1);
  if nargin == 1
