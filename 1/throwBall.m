@@ -4,7 +4,7 @@ clear
 h = 1.5; %m
 g = 9.8; %m/s^2
 v = 4; %m/s
-theta = pi*45/180; %degree
+theta = pi*45/180; %45 degree
 timeVec = linspace(0,1,1000);
 x = v*cos(theta*pi/180).*timeVec;
 y = h + v*sin(theta*pi/180).*timeVec - g/2.*(timeVec.^2);
